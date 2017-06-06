@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1446667744 source:c:\users\win 8\documents\ciencia de compoutacion\tarea\main.cpp
+	<iostream>
+
+1496707100 source:c:\users\win 8\documents\ciencia de compoutacion\tarea\src\point.cpp
+	"Point.h"
+
+1496707100 c:\users\win 8\documents\ciencia de compoutacion\tarea\include\point.h
+
+1496719534 source:c:\users\win 8\documents\ciencia de compoutacion\tarea\src\pointarray.cpp
+	"PointArray.h"
+
+1496720849 c:\users\win 8\documents\ciencia de compoutacion\tarea\include\pointarray.h
+	"Point.h"
+
+1496721156 source:c:\users\win 8\documents\ciencia de compoutacion\tarea\src\polygon.cpp
+	"Polygon.h"
+
+1496721784 c:\users\win 8\documents\ciencia de compoutacion\tarea\include\polygon.h
+	"PointArray.h"
+
