@@ -33,15 +33,21 @@
 1496759333 d:\tarea06\tarea\include\pointarray.h
 	"Point.h"
 
-1496761134 source:d:\tarea06\tarea\src\polygon.cpp
+1496762510 source:d:\tarea06\tarea\src\polygon.cpp
 	"Polygon.h"
 
 1496761134 d:\tarea06\tarea\include\polygon.h
 	"PointArray.h"
 
-1496762233 source:d:\tarea06\tarea\src\rectangle.cpp
+1496762510 source:d:\tarea06\tarea\src\rectangle.cpp
 	"Rectangle.h"
 
 1496761714 d:\tarea06\tarea\include\rectangle.h
+	"Polygon.h"
+
+1496762641 source:d:\tarea06\tarea\src\triangle.cpp
+	"Triangle.h"
+
+1496762641 d:\tarea06\tarea\include\triangle.h
 	"Polygon.h"
 
