@@ -19,3 +19,29 @@
 1496721784 c:\users\win 8\documents\ciencia de compoutacion\tarea\include\polygon.h
 	"PointArray.h"
 
+1496759333 source:d:\tarea06\tarea\main.cpp
+	<iostream>
+
+1496759333 source:d:\tarea06\tarea\src\point.cpp
+	"Point.h"
+
+1496759333 d:\tarea06\tarea\include\point.h
+
+1496759333 source:d:\tarea06\tarea\src\pointarray.cpp
+	"PointArray.h"
+
+1496759333 d:\tarea06\tarea\include\pointarray.h
+	"Point.h"
+
+1496761134 source:d:\tarea06\tarea\src\polygon.cpp
+	"Polygon.h"
+
+1496761134 d:\tarea06\tarea\include\polygon.h
+	"PointArray.h"
+
+1496762233 source:d:\tarea06\tarea\src\rectangle.cpp
+	"Rectangle.h"
+
+1496761714 d:\tarea06\tarea\include\rectangle.h
+	"Polygon.h"
+

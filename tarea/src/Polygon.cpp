@@ -6,7 +6,7 @@ Polygon::Polygon(const Point arr[],const int lenght):puntos(arr,lenght)
     ++numb;
 }
 
-Polygon::Polygon(PointArray &p):puntos(p)
+Polygon::Polygon(const PointArray &p):puntos(p)
 {
     ++numb;
 }

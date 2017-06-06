@@ -9,7 +9,7 @@ class Polygon
         PointArray puntos;
     public:
         Polygon(const Point arr[],const int lenght);
-        Polygon(PointArray &p);
+        Polygon(const PointArray &p);
         virtual double area()=0;
         int getNumPolygons(){return numb;}
         int getNumSides(){return puntos.getSize();}
