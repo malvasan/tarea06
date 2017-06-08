@@ -1,6 +1,7 @@
 #ifndef POLYGON_H
 #define POLYGON_H
 #include "PointArray.h"
+#include "math.h"
 
 class Polygon
 {
