@@ -47,24 +47,22 @@ Stack<T> operator-(const Stack<T> &pila1,const Stack<T> &pila2)
         if(pasar==true)
             nuevo.push(pila1.pila[i]);
     }
-    for(int i=0;i<nuevo.pila.size();i++)
-        cout<<nuevo.pila[i]<<endl;
     return nuevo;
 }
-/*
+
 template<typename T>
-Stack<T> operator<<(Stack<T> &output,const Stack<T> &pila1)
+ostream& operator<<(ostream &output,const Stack<T> &pila1)
 {
-    for(int i=0;i<pila1.pila.size();i++)
+    for(int i=0;i<pila1.pila.size();++i)
         output<<pila1.pila[i];
     return output;
 }
-*/
+
 template<typename T>
 class Stack{
     friend Stack<T> operator+<>(const Stack<T> &pila1,const Stack<T> &pila2);
     friend Stack<T> operator-<>(const Stack<T> &pila1,const Stack<T> &pila2);
-    //friend Stack<T> operator<<<>(Stack<T> &output,const Stack<T> &pila1);
+    friend ostream& operator<<<>(ostream &output,const Stack<T> &pila1);
     vector<T> pila;
 public:
     bool vacio()
@@ -93,9 +91,12 @@ int main()
     Stack<int> a,b;
     a.push(1);
     a.push(2);
-    b.push(2);
+    a.push(3);
     b.push(4);
+    b.push(5);
+    b.push(6);
     Stack<int> c=a-b;
+    cout<<c<<endl;
 
 
 }
