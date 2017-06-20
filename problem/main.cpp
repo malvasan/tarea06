@@ -71,7 +71,9 @@ public:
     }
     void push(const T &item)
     {
-        pila.push_back(item);
+        std::vector<int>::iterator it;
+        it=pila.begin();
+        pila.insert(it,item);
     }
     T top()
     {
