@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1498536001 source:d:\tarea06\control\main.cpp
+	<iostream>
+	<vector>
+
